@@ -1,10 +1,9 @@
 pipeline { 
     agent any
     tools {
-        maven 'maven' 
+        maven 'maven1' 
     }
-
-    
+ 
     
     stages {
         stage('clone') {
